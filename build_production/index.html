@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laravel &amp; Angular</title>
+
+<meta name="theme-color" content="#ffffff">
+
+<meta name="description" content="Laravel &amp; Angular. Build consistent APIs with Laravel &amp; Angular package.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Laravel &amp; Angular">
+<meta name="twitter:description" content="Laravel &amp; Angular. Build consistent APIs with Laravel &amp; Angular package.">
+<meta name="twitter:image" content="/images/about.png">
+
+<meta name="og:title" content="Laravel &amp; Angular" />
+<meta name="og:type" content="article" />
+<meta name="og:image" content="/images/about.png" />
+<meta name="og:description" content="Laravel &amp; Angular. Build consistent APIs with Laravel &amp; Angular package." />
+<meta name="og:site_name" content="Laravel & Angular" />
+
+<style>
+    :root{
+      --dark: #21455B;
+      --light: #59717F;
+      --primary: #3f51b5;
+  }
+  body{
+      margin: 0;
+      color: var(--dark);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+</style>
+<link rel="stylesheet" href="/css/main.css?v=3">
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+</head>
+<body>
+    <header>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-10">
+                <div class="header-content">
+                    <a href="/">
+                        <img src="/images/logo.svg" alt="Laravel Angular Logo">
+                    </a>
+                    <div class="links">
+                        <a href="/docs/1/" class="link ">Docs</a>
+                        <a href="https://learnjavascript.online/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">Learn JavaScript</a>
+                        <a href="https://react-tutorial.app/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">React Tutorial</a>
+                        <div id="github-iframe" style="width:160px;height:30px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+    </div>
+</header>
+
+    
+<div id="particles-js"></div>
+<div id="hero">
+    <div>
+      <h3>Build your next powerful web app</h3>
+      <h1>
+        Laravel &amp; Angular Package
+    </h1>
+
+    <a class="mdc-button mdc-button--raised mdc-button--primary" href="/docs/1/">Get Started</a>
+</div>
+</div>
+
+<div id="code">
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
+                <div>
+                    <h2 class="title">Laravel</h2>
+                    <div class="subtitle">Response macros integrated with your Angular app</div>
+
+                    <div class="DemoCode">
+                        <span class="DemoCode-operator">&lt;?php</span><br>
+                        <br>
+                        <span class="DemoCode-highlight">class</span> <span class="DemoCode-secondary">PostsController</span><br>
+                        {<br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;public <span class="DemoCode-secondary">function</span> <span class="DemoCode-highlight">get</span>()<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="DemoCode-secondary">$posts</span> = <span class="DemoCode-highlight">App</span>\<span class="DemoCode-highlight">Post</span>::<span class="DemoCode-secondary">get</span>();<br>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="DemoCode-highlight">return</span> <span class="DemoCode-secondary">response</span>()-&gt;<span class="DemoCode-secondary">success</span>(compact(<span class="DemoCode-string">'posts'</span>));<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}<br>}
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+        </div>
+    </div>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
+            <div>
+              <h2 class="title">Angular</h2>
+              <div class="subtitle">Query your API without worrying about validations</div>
+
+              <div class="DemoCode">
+                <span class="DemoCode-secondary">export class</span> <span class="DemoCode-highlight">PostsService</span> {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="DemoCode-highlight">constructor</span>(<span class="DemoCode-secondary">private</span> http: Http){}<br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="DemoCode-highlight">getAll</span>(){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="DemoCode-secondary">return</span> <span class="DemoCode-highlight">this</span>.http<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.get(<span class="DemoCode-string">'api/posts'</span>)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.map(response <span class="DemoCode-secondary">=></span> response.json());<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            }
+            <br></div>
+        </div>
+    </div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+</div>
+</div>
+</div>
+
+<div id="features">
+    <h2>The right features to get you started</h2>
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-8-tablet">
+            <div class="feature">
+              <img src="images/restful.svg" alt="">
+              <h3>RESTful API</h3>
+              <div class="text">Build consistent REST APIs and call them fluently using JS, without worrying about validation errors</div>
+              <br>
+          </div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-8-tablet">
+        <div class="feature">
+          <img src="images/json.svg" alt="">
+          <h3>Json Web Token Auth</h3>
+          <div class="text">Get an out-of-the-box JWT Authentication in your app that allows you to authenticate users on the fly</div>
+      </div>
+  </div>
+  <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+</div>
+</div>
+</div>
+
+<script async src="/js/particles.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareSourceCode",
+      "creator": {
+        "@type": "Person",
+        "name": "Jad Joubran"
+    },
+    "codeRepository": "https://github.com/jadjoubran/laravel-angular",
+    "programmingLanguage": "php",
+    "headline": "Laravel & Angular",
+    "isBasedOn": [{
+        "@type": "CreativeWork",
+        "name": "Laravel"
+    }, {
+        "@type": "CreativeWork",
+        "name": "Angular"
+    }],
+    "keywords": "Laravel,Angular,API,javascript",
+    "text": "Laravel & Angular package",
+    "image": "/images/about.png",
+    "url": "https://laravel-angular.io"
+}
+</script>
+
+    <footer>
+  <div class="footnote">
+    <div class="text">An open source project by <a href="https://jadjoubran.io" target="_blank" rel="nofollow">Jad Joubran</a> <br>Design by <a href="https://nicolesaidy.com/" target="_blank" rel="nofollow">Nicole Saidy</a></div>
+    <br>
+    <div class="copyright">
+      <a href="/contact-us">Contact</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      &copy; 2017 Laravel &amp; Angular
+    </div>
+  </div>
+</footer>
+
+<script async src="/js/mdc.base.min.js"></script>
+<script async src="/js/mdc.ripple.min.js"></script>
+<script>
+  window.addEventListener('load', function(){
+    var mdlButtons = document.querySelector('.mdc-button');
+    if (mdlButtons){
+      mdc.ripple.MDCRipple.attachTo(mdlButtons);
+    }
+    setTimeout(function(){
+        document.getElementById('github-iframe').innerHTML = '<iframe class="github" width="160" height="30" src="https://ghbtns.com/github-btn.html?user=jadjoubran&repo=laravel-angular&type=star&count=true&size=large" frameborder="0"></iframe>';
+    }, 350);
+  });
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('set', 'anonymizeIp', true);
+  ga('create', 'UA-71584128-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

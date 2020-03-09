@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motivation | Laravel &amp; Angular</title>
+
+<meta name="theme-color" content="#ffffff">
+
+<meta name="description" content="Laravel &amp; Angular. The reason why this project was created.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Motivation | Laravel &amp; Angular">
+<meta name="twitter:description" content="Laravel &amp; Angular. The reason why this project was created.">
+<meta name="twitter:image" content="/images/about.png">
+
+<meta name="og:title" content="Motivation | Laravel &amp; Angular" />
+<meta name="og:type" content="article" />
+<meta name="og:image" content="/images/about.png" />
+<meta name="og:description" content="Laravel &amp; Angular. The reason why this project was created." />
+<meta name="og:site_name" content="Laravel & Angular" />
+
+<style>
+    :root{
+      --dark: #21455B;
+      --light: #59717F;
+      --primary: #3f51b5;
+  }
+  body{
+      margin: 0;
+      color: var(--dark);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+</style>
+<link rel="stylesheet" href="/css/main.css?v=3">
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+</head>
+<body>
+    <header>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-10">
+                <div class="header-content">
+                    <a href="/">
+                        <img src="/images/logo.svg" alt="Laravel Angular Logo">
+                    </a>
+                    <div class="links">
+                        <a href="/docs/1/" class="link selected">Docs</a>
+                        <a href="https://learnjavascript.online/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">Learn JavaScript</a>
+                        <a href="https://react-tutorial.app/?utm_source=laravel-angular.io" target="_blank" rel="noopener" class="link">React Tutorial</a>
+                        <div id="github-iframe" style="width:160px;height:30px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+    </div>
+</header>
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mdc-layout-grid__cell--span-12-tablet mdc-layout-grid__cell--span-12-phone"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+                <div class="sidebar">
+                    <div class="title">Get started</div>
+
+<a class="page " href="/docs/1/">Install</a>
+<a class="page " href="/docs/1/angular-install">Angular Install</a>
+<a class="page selected" href="/docs/1/motivation">Motivation</a>
+
+<div class="title">Tutorial</div>
+<a class="page " href="/docs/1/tutorial">Overview</a>
+<a class="page " href="/docs/1/tutorial-tdd">TDD</a>
+<a class="page " href="/docs/1/tutorial-model">Model setup</a>
+<a class="page " href="/docs/1/tutorial-api">API routes</a>
+<a class="page " href="/docs/1/tutorial-http">Angular Http</a>
+<a class="page " href="/docs/1/tutorial-auth">Angular Auth</a>
+
+<div class="title">Response Macros</div>
+<a class="page " href="/docs/1/response-macros">Overview</a>
+<a class="page " href="/docs/1/response-macros-validations">Validations</a>
+
+<div class="title">JWT Authentication</div>
+<a class="page " href="/docs/1/jwt-auth">Overview</a>
+<a class="page " href="/docs/1/jwt-auth-install">Install</a>
+<a class="page " href="/docs/1/jwt-auth-usage">Usage</a>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                <div class="docs">
+                    <div id="deprecated">Unfortunately, this project has been discontinued.<br>
+                    A member of the community has suggested the following <a href="https://medium.com/@rbrisita/laravel-and-angular-automated-800f342ab3cf">replacement</a>.<br>
+                    This replacement is not affiliated with laravel-angular.io</div>
+                    <h1>Motivation</h1>
+
+<div class="subtitle">The reason why this project was created.</div>
+
+<h2>From Starter to Package</h2>
+
+<p><a href="https://github.com/jadjoubran/laravel5-angular-material-starter">Laravel Angular Material Starter</a> had a great success for bridging the gap between Laravel &amp; Angular.
+It paved the way to awesome features such as out of the box:
+* AngularJS build tool setup
+* API environment for Laravel with JWT authentication
+* AngularJS generators for increased productivity
+* and many more..</p>
+
+<h2>Moving forward</h2>
+
+<p>As of Laravel 5.3, we started having a separate route file for API endpoints, as long as a dedicated API middelware.<br />
+And as of Angular (>= 2), we now an official way of starting Angular projects with a pre-configured shell.<br />
+This means that there's no need anymore for the Generators to be part of Laravel &amp; Angular, same for Laravel's API environment.<br />
+As the community has moved forward with these awesome additions, the role for Laravel &amp; Angular started diminishing.<br />
+This is why you'll find that this package focuses on solving the remaining pain-points by giving you a pleasurable experience developing Laravel &amp; Angular apps.</p>
+
+<h2>Starter vs Package</h2>
+
+<p>Laravel Angular Material used to be a Starter which made it very easy for developers to start hacking on their projects.
+However this had a lot of drawbacks, here are a few:
+* Unnecessary dependencies
+* Hard (or impossible to upgrade)
+* Impossible to integrate with existing projects</p>
+
+<p>This is why we now developed a package that can be easily integrated with existing apps &amp; easily upgraded!
+This also means, you could use the official (&amp; recommended) @angular/cli to start your angular project or any other method you'd prefer.</p>
+
+<div class="info">
+    <svg fill="#3f51b5" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/>
+    </svg>
+    <div>
+        Are you looking for the documentation of the previous starter project?&nbsp;<a target="_blank" href="https://laravel-angular.readme.io/">Click here.</a>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+        </div>
+    </div>
+
+    <footer>
+  <div class="footnote">
+    <div class="text">An open source project by <a href="https://jadjoubran.io" target="_blank" rel="nofollow">Jad Joubran</a> <br>Design by <a href="https://nicolesaidy.com/" target="_blank" rel="nofollow">Nicole Saidy</a></div>
+    <br>
+    <div class="copyright">
+      <a href="/contact-us">Contact</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      &copy; 2017 Laravel &amp; Angular
+    </div>
+  </div>
+</footer>
+
+<script async src="/js/mdc.base.min.js"></script>
+<script async src="/js/mdc.ripple.min.js"></script>
+<script>
+  window.addEventListener('load', function(){
+    var mdlButtons = document.querySelector('.mdc-button');
+    if (mdlButtons){
+      mdc.ripple.MDCRipple.attachTo(mdlButtons);
+    }
+    setTimeout(function(){
+        document.getElementById('github-iframe').innerHTML = '<iframe class="github" width="160" height="30" src="https://ghbtns.com/github-btn.html?user=jadjoubran&repo=laravel-angular&type=star&count=true&size=large" frameborder="0"></iframe>';
+    }, 350);
+  });
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('set', 'anonymizeIp', true);
+  ga('create', 'UA-71584128-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
