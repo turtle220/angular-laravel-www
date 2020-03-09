@@ -1,0 +1,48 @@
+#code{
+  margin-top: -30px;
+}
+
+#code .title{
+  margin-bottom: 15px;
+  color: var(--dark);
+  font-size: 36px;
+  text-align: center;
+}
+#code .subtitle{
+  color: var(--light);
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.DemoCode{
+  font-family: "Lucida Console",Monaco,monospace;
+  overflow: auto!important;
+  line-height: 1.7;
+  padding: 20px;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f6f7;
+  border: 1px solid #ECEFF1;
+  border-radius: 4px;
+  width: 80%;
+  margin: 30px auto 100px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.DemoCode-highlight{
+  color:#DD4A68;
+}
+.DemoCode-comment,
+.DemoCode-operator{
+  color:#888;
+}
+.DemoCode-string{
+  color:#690;
+}
+.DemoCode-secondary{
+  color:#07A;
+}

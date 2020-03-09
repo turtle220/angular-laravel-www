@@ -1,0 +1,36 @@
+header{
+  padding-top: 20px;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content .links{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+    .header-content .links{
+        display: none;
+    }
+}
+
+.header-content .link{
+  text-decoration: none;
+  padding: 0 20px;
+  height: 100%;
+  color: var(--light);
+  transition: color 200ms;
+}
+.header-content .link.selected {
+  color: var(--dark);
+}
+.header-content .link:hover {
+  color: var(--dark);
+}
+.header-content .github{
+  margin-left: 10px;
+}

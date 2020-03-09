@@ -1,0 +1,30 @@
+.contact{
+  margin-top: 30px;
+  min-height: 45vh;
+  line-height: 1.5em;
+  h1 {
+    margin-bottom: 25px;
+  }
+  p {
+    color: var(--light);
+  }
+  a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .entry {
+    opacity: 0.85;
+    transition: opacity 200ms;
+    a {
+      display: flex;
+      align-items: center;
+      .icon {
+        padding-right: 20px;
+      }
+    }
+  }
+  .entry:hover {
+    opacity: 1;
+  }
+}

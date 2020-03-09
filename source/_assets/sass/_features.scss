@@ -1,0 +1,32 @@
+#features{
+  text-align: center;
+
+
+  .feature {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h2{
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: var(--dark);
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  img{
+    padding: 30px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .text{
+    color: var(--light);
+    margin-top: 30px;
+    line-height: 1.5em;
+  }
+}

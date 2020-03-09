@@ -1,0 +1,36 @@
+footer{
+  background-color: #3f51b5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 100px;
+
+  .footnote{
+    padding-top: 10px;
+    line-height: 20px;
+    .text {
+      line-height: 1.7em;
+    }
+  }
+
+  .copyright {
+    opacity: 0.5;
+    font-size: 14px;
+
+    a {
+      padding-right: 8px;
+    }
+  }
+
+  a{
+    color: white;
+    text-decoration-color: rgba(255, 255, 255, 0.6);
+    transition: text-decoration-color 200ms;
+  }
+
+  a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+  }
+}

@@ -1,0 +1,38 @@
+.sidebar{
+    min-height: 300px;
+    line-height: 1.7em;
+    margin-top: 155px;
+
+    .page{
+      font-size: 14px;
+      margin-left: 15px;
+      color: var(--light);
+  }
+  .page:hover:not(.selected):not(.disabled) {
+      color: var(--dark);
+  }
+  .selected{
+      font-weight: bold;
+      color: var(--primary);
+  }
+  .page.disabled{
+    opacity: 0.6;
+  }
+  a {
+      display: block;
+      text-decoration: none;
+  }
+  .title {
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: var(--dark);
+      font-weight: 700;
+  }
+}
+
+@media (max-width: 550px){
+    .sidebar{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,35 @@
+#hero{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -90px;
+
+  h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    color: var(--light);
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .mdc-button {
+    letter-spacing: 0;
+    height: 50px;
+    padding: 6px 26px;
+    text-transform: none;
+    font-size: 16px;
+    transition: background-color 200ms;
+  }
+  .mdc-button:hover {
+    background-color: #5264cb;
+  }
+}
