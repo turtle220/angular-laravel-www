@@ -18,9 +18,6 @@
     if (mdlButtons){
       mdc.ripple.MDCRipple.attachTo(mdlButtons);
     }
-    setTimeout(function(){
-        document.getElementById('github-iframe').innerHTML = '<iframe class="github" width="160" height="30" src="https://ghbtns.com/github-btn.html?user=jadjoubran&repo=laravel-angular&type=star&count=true&size=large" frameborder="0"></iframe>';
-    }, 350);
   });
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
